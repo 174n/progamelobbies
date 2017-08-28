@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"lo",
+				"lobbies"
+			],
+			[
 				"db",
 				"dbSet"
 			],
@@ -52,10 +56,6 @@
 				"border-radius"
 			],
 			[
-				"lo",
-				"log"
-			],
-			[
 				"rg",
 				"rgba()"
 			],
@@ -68,82 +68,46 @@
 	"buffers":
 	[
 		{
+			"file": "src/components/LobbyList.vue",
+			"settings":
+			{
+				"buffer_size": 1809,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "firebase.json",
+			"settings":
+			{
+				"buffer_size": 183,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/NewLobby.vue",
+			"settings":
+			{
+				"buffer_size": 3369,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/App.vue",
 			"settings":
 			{
-				"buffer_size": 995,
+				"buffer_size": 510,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/components/Settings.vue",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4466,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/Loading.vue",
-			"settings":
-			{
-				"buffer_size": 828,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/Playlist.vue",
-			"settings":
-			{
-				"buffer_size": 904,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/SinglePlaylist.vue",
-			"settings":
-			{
-				"buffer_size": 2339,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/main.js",
-			"settings":
-			{
-				"buffer_size": 503,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/PlaylistCard.vue",
-			"settings":
-			{
-				"buffer_size": 1762,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/components/Player.vue",
-			"settings":
-			{
-				"buffer_size": 9700,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/mixins/storage.js",
-			"settings":
-			{
-				"buffer_size": 664,
+				"buffer_size": 1148,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -156,10 +120,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 310.0,
-		"last_filter": "ma",
+		"height": 354.0,
+		"last_filter": "json",
 		"selected_items":
 		[
+			[
+				"json",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"ssjso",
+				"Set Syntax: JSON"
+			],
 			[
 				"ma",
 				"Material Theme: Activate theme"
@@ -203,10 +175,6 @@
 			[
 				"pre",
 				"Pretty JSON: Format and Sort JSON"
-			],
-			[
-				"json",
-				"Pretty JSON: Minify (compress) JSON"
 			],
 			[
 				"pret",
@@ -301,7 +269,7 @@
 				"Set Syntax: YAML"
 			]
 		],
-		"width": 329.0
+		"width": 414.0
 	},
 	"console":
 	{
@@ -323,12 +291,29 @@
 	},
 	"expanded_folders":
 	[
-		"/home/ivan/YTListen",
-		"/home/ivan/YTListen/src",
-		"/home/ivan/YTListen/src/components"
+		"/C/home/coding (projects)/github/progamelobbies",
+		"/C/home/coding (projects)/github/progamelobbies/src",
+		"/C/home/coding (projects)/github/progamelobbies/src/components"
 	],
 	"file_history":
 	[
+		"/C/home/coding (projects)/github/progamelobbies/firebase/firebase.json",
+		"/C/home/coding (projects)/github/progamelobbies/.gitignore",
+		"/C/home/coding (projects)/github/progamelobbies/src/firebase.js",
+		"/C/home/coding (projects)/github/progamelobbies/src/main.js",
+		"/C/Users/Ivan Alexandrov/Desktop/progamelobbies-export.json",
+		"/C/home/coding (projects)/github/progamelobbies/index.html",
+		"/C/home/coding (projects)/github/progamelobbies/manifest.json",
+		"/C/home/coding (projects)/github/progamelobbies/src/firebase_teample.json",
+		"/C/home/coding (projects)/github/progamelobbies/src/App.vue",
+		"/C/Users/Ivan Alexandrov/Desktop/a.json",
+		"/C/home/coding (projects)/github/progamelobbies/src/mixins/storage.js",
+		"/C/home/coding (projects)/github/progamelobbies/src/components/PlaylistCard.vue",
+		"/C/home/coding (projects)/github/progamelobbies/src/components/SinglePlaylist.vue",
+		"/C/home/coding (projects)/github/progamelobbies/src/components/Playlist.vue",
+		"/C/home/coding (projects)/github/progamelobbies/src/components/Loading.vue",
+		"/C/home/coding (projects)/github/progamelobbies/src/components/Settings.vue",
+		"/C/home/coding (projects)/github/progamelobbies/src/components/Player.vue",
 		"/home/ivan/YTListen/src/routes.js",
 		"/home/ivan/YTListen/src/main.js",
 		"/home/ivan/YTListen/src/styles/settings.scss",
@@ -434,7 +419,7 @@
 	],
 	"find":
 	{
-		"height": 63.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -449,6 +434,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"steam://(.*?)\"",
+			"steam",
+			"lobbies",
+			"\n      console.log({\n        url: this.url,\n        game: this.game,\n        category: this.category\n      });",
 			"ended",
 			"en",
 			"10px",
@@ -519,7 +508,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"",
@@ -552,115 +541,112 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/App.vue",
+					"file": "src/components/LobbyList.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 995,
+						"buffer_size": 1809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								387,
-								387
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/components/Settings.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4466,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1092.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/components/Loading.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 828,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								249,
-								249
+								1753,
+								1753
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
 							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/components/Playlist.vue",
+					"buffer": 1,
+					"file": "firebase.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 904,
+						"buffer_size": 183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								523,
-								523
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/NewLobby.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2862,
+								2862
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 385.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/App.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
 							]
 						],
 						"settings":
@@ -678,85 +664,25 @@
 				},
 				{
 					"buffer": 4,
-					"file": "src/components/SinglePlaylist.vue",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2339,
+						"buffer_size": 1148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								783,
+								783
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 503,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/components/PlaylistCard.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1762,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								613,
-								613
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -764,67 +690,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/components/Player.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9700,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2017,
-								2017
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 673.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/mixins/storage.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 664,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
 					"type": "text"
 				}
 			]

@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import VueResource from 'vue-resource'
-import VueRouter from 'vue-router'
+//import VueResource from 'vue-resource'
+//import VueRouter from 'vue-router'
 import VueMaterial from 'vue-material'
 //firebase
 import VueFire from 'vuefire'
@@ -8,11 +8,11 @@ import VueFire from 'vuefire'
 import VueTimeago from 'vue-timeago'
 
 import App from './App.vue'
-import Routes from './routes'
+//import Routes from './routes'
 
 
-Vue.use(VueResource);
-Vue.use(VueRouter);
+//Vue.use(VueResource);
+//Vue.use(VueRouter);
 Vue.use(VueMaterial);
 
 
@@ -34,16 +34,16 @@ Vue.use(VueTimeago, {
 })
 
 
-const router = new VueRouter({
+/*const router = new VueRouter({
     routes: Routes
-});
+});*/
 
 
 
 new Vue({
   el: '#app',
   render: h => h(App),
-  router: router,
+  //router: router,
   data () {
     return {
       
