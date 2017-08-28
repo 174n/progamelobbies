@@ -15,6 +15,14 @@ Vue.use(VueResource);
 Vue.use(VueRouter);
 Vue.use(VueMaterial);
 
+
+Vue.material.registerTheme('default', {
+  primary: 'blue-grey',
+  accent: 'amber',
+  warn: 'red',
+  background: 'white'
+})
+
 Vue.use(VueFire);
 
 Vue.use(VueTimeago, {

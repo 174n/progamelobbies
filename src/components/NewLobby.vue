@@ -29,10 +29,16 @@
             </md-select>
           </md-input-container>
 
-          <md-input-container>
+            <!-- <label for="tags">Tags</label>
+            <md-select name="tags" id="tags" v-model="tags" multiple>
+              <md-option v-for="(tag, i)  in lobbies[game].lobbies[category].tags" :value="i" :key="i">{{ tag }}</md-option>
+            </md-select> -->
+            <md-checkbox v-for="(tag, i)  in lobbies[game].lobbies[category].tags" :key="i" v-model="tags[i]">{{ tag }}</md-checkbox>
+
+          <!-- <md-input-container>
             <label>Description</label>
             <md-input v-model="comment"></md-input>
-          </md-input-container>
+          </md-input-container> -->
         </form>
 
       </md-dialog-content>
@@ -64,7 +70,8 @@ export default {
       url: "",
       comment:"",
       game: 0,
-      category: 0
+      category: 0,
+      tags: [true]
     }
   },
   methods:{
@@ -75,10 +82,13 @@ export default {
       this.$refs[ref].close();
     },
     create(){
-      if(this.url !== "")
+      let tags = [];
+      this.tags.forEach((tag, i) => {
+        if(tag === true) tags.push(i);
+      });
       lobbiesRef.child(this.game+"/lobbies/"+this.category+"/lobbies").push({
         "url": this.url,
-        "comment": this.comment,
+        "tags": tags,
         "time": {".sv":"timestamp"}
       }).then(() => {
         this.$refs.success.open();
