@@ -1,0 +1,63 @@
+{
+  "lobbies": [
+    {
+    	"name": "CS:GO",
+      "lobbies": [
+        {
+          "icon": "whatshot",
+          "lobbies": [
+            {
+              "url": "1",
+              "comment": "A comment"
+            },
+            {
+              "url": "2",
+              "comment": "A comment"
+            },
+            {
+              "url": "3",
+              "comment": "A comment"
+            }
+          ],
+          "name": "Matchmaking"
+        },
+        {
+          "icon": "gamepad",
+          "lobbies": [
+            {
+              "url": "4",
+              "comment": "A comment"
+            },
+            {
+              "url": "5",
+              "comment": "A comment"
+            },
+            {
+              "url": "6",
+              "comment": "A comment"
+            }
+          ],
+          "name": "Training maps"
+        },
+        {
+          "icon": "gamepad",
+          "lobbies": [
+            {
+              "url": "7",
+              "comment": "A comment"
+            },
+            {
+              "url": "8",
+              "comment": "A comment"
+            },
+            {
+              "url": "9",
+              "comment": "A comment"
+            }
+          ],
+          "name": "Fun maps"
+        }
+      ]
+    }
+  ]
+}
